@@ -1,0 +1,125 @@
+/*Log in background css start*/
+
+.login-background{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/background-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 10% 0;
+    animation: change 50s infinite ease-in-out;
+  }
+
+  @keyframes change{
+
+    0%
+    {
+        background-image: url("../images/background-1.jpg");
+    }
+  
+  
+    16%
+    {
+        background-image: url("../images/background-2.jpg");
+    }
+
+
+    32%
+    {
+        background-image: url("../images/background-3.jpg");
+    }
+
+    48%
+    {
+        background-image: url("../images/background-4.jpg");
+    }
+
+    64%
+    {
+        background-image: url("../images/background-5.jpg");
+    }
+
+    80%
+    {
+        background-image: url("../images/background-6.jpg");
+    }
+  
+    100%
+    {
+        background-image: url("../images/background-1.jpg");
+    }
+  
+    
+  }
+  
+  /*Log in background css end*/
+  
+  
+  /*Log in css start*/
+  
+  .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-direction: column;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .login form{
+    width: 500px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+  }
+  
+  .login label{
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .login input{
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+  
+  .login h2{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .login a{
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ff6b81;
+  }
+  
+  .login a:hover{
+    text-decoration: underline;
+    color: #ff4757;
+  }
+  
+  .login button{
+    float: right;
+    background: #f1c40f;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+  }
+  
+  .login button:hover{
+    background: #ffa500;
+  }
+  
+  /*Log in css end*/

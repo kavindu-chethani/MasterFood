@@ -1,0 +1,271 @@
+/* *------############css for first slide#############---------*/ */
+.nova
+{
+    margin-left: 10px;
+}
+.intro
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+/*-##############css for search text box button#####################-*/
+.search input[type=text] {
+    width: 39%;
+    box-sizing: border-box;
+    /* border: 1px solid #cccccc96; */
+    border-radius: 21px;
+    font-size: 16px;
+    /* background-color: #252220a8; */
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.search button {
+    float: none;
+    width: 7%;
+    padding: 11px;
+    background: orange;
+    /*color: white;*/
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    border-radius: 32px;
+    cursor: pointer;
+}
+  
+  .search button:hover {
+    background: hsl(27, 97%, 49%);
+  }
+
+  .search {
+
+    text-align: center;
+    padding: 10px;
+
+  }
+/*-##################css for search text box button##########################-*/
+
+.main-content
+{
+     /* margin: 1% 0; */
+     background-color: #f1f2f6;
+     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/background-1.jpg);
+     background-size: cover;
+     background-position: center;
+     color: #efefef !important;
+     background-attachment: fixed;
+     padding-top: 148px;
+     padding-bottom: 382px;
+     animation: change 50s infinite ease-in-out;
+
+}
+
+
+
+@keyframes change{
+
+  0%
+  {
+      background-image: url("../images/background-1.jpg");
+  }
+
+
+  16%
+  {
+      background-image: url("../images/background-2.jpg");
+  }
+
+
+  32%
+  {
+      background-image: url("../images/background-3.jpg");
+  }
+
+  48%
+  {
+      background-image: url("../images/background-4.jpg");
+  }
+
+  64%
+  {
+      background-image: url("../images/background-5.jpg");
+  }
+
+  80%
+  {
+      background-image: url("../images/background-6.jpg");
+  }
+
+  100%
+  {
+      background-image: url("../images/background-1.jpg");
+  }
+
+  
+}
+
+
+/*------############css for first slide#############---------*/
+
+
+
+
+/*---css for about us--*/
+.about_img
+{
+    height: 103%;
+    width: 73%;
+}
+
+#about1
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+
+.about1-content1
+{
+padding-top: 20px;
+}
+
+.about1 .new
+{
+    margin: 10px 0;
+    color: grey;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.row
+{
+    display: flex;
+    /* margin-top: 61px; */
+    /* margin-right: 219px; */
+    margin-left: 18px;
+}
+
+.col-md-6
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+h2{
+    margin: 10px 0;
+    color: grey;
+    font-size: 34px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*---css for about us--*/
+
+/* css for free space */
+#services_new
+{
+
+ background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/00.jpg);
+ background-size: cover;
+ background-position: center;
+ color: #efefef !important;
+ background-attachment: fixed;
+ padding-top: 46px;
+ padding-bottom: 292px;
+
+}
+/* css for free space */
+
+/*---- css for contact us--- */
+.container3 {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 16px;
+  }
+  
+  
+  #Contact
+  {
+  
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+  
+  }
+  
+  .Contact-form
+  {
+  
+      padding: 15px;
+  }
+  
+  .form-control
+  {
+  
+  
+  border-radius: 0 !important;
+  border: none !important;
+  
+  }
+  
+  ::placeholder
+  {
+  
+      color: #999 !important;
+   }
+  
+  .follow
+  {
+  
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+  
+  }
+  
+  
+  .Contact-info .fa
+  {
+     margin: 10px;
+     color: #007bff;
+     font-weight: bold;
+  
+  }
+  
+  input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: -1px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: #2c2e31;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #48474c;
+    }
+  
+  .row
+  {
+      display: flex;
+      /* margin-top: 61px; */
+      /* margin-right: 219px; */
+      margin-left: 18px;
+  }

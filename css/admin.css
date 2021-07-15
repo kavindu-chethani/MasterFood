@@ -1,0 +1,79 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #353b48;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #ffa500;
+    user-select: none;
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+ul li:hover a{
+    padding-left: 50px;
+    background-color: #ff4500;
+}
+
+.sidebar ul a i{
+    margin-right: 16px;
+}
+
+form{
+    margin-left: 250px;
+    padding: 50px;
+    background-color: #dcdde1;
+    height: 100%;
+}
+
+.tbl{
+    width: 100%;
+}
+
+table tr th{
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+    
+    
+    
+}
+
+
+
+
+
+

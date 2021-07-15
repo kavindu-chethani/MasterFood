@@ -1,0 +1,87 @@
+/*Admin Log in background css start*/
+
+.adminlogin-background{
+    /*background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/background2.jpg);*/
+    background-color: #ffa500;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 0;
+  }
+  
+  /*Admin Log in background css end*/
+  
+  
+  
+  
+  
+  
+  /*Admin Log in css start*/
+  
+  .adminlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-direction: column;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .adminlogin form{
+    width: 500px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #353b48;
+    border-radius: 15px;
+  }
+  
+  .adminlogin label{
+    color: #ffa500;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .adminlogin input{
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+  
+  .adminlogin h2{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ff4500;
+  }
+  
+  .adminlogin a{
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffa500;
+  }
+  
+  .adminlogin a:hover{
+    text-decoration: underline;
+    color: #ffa500;
+  }
+  
+  .adminlogin button{
+    float: right;
+    background: #ffa500;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+  }
+  
+  .adminlogin button:hover{
+    background: #ff4500;
+  }
+  
+  /* Admin Log in css end*/
