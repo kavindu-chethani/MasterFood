@@ -20,7 +20,7 @@
 	<div class="container">
 
 		<div class="logo">
-			<a href="#" title="Logo"><img src="images/Master.png" alt="Master Food Logo" class="img-responsive"></a>
+			<a href="#" title="Logo"><img src="images/logo.png" alt="Master Food Logo" class="img-responsive"></a>
 		</div>
 
 
@@ -52,10 +52,7 @@
                         
                     </div>
 					
-					<!--order buttons-->
-                    <div class="btn-group">
-                        <button>Your order</button>
-                    </div>
+					>
 
                 </div>
             </div>

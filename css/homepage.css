@@ -52,60 +52,18 @@
 {
      /* margin: 1% 0; */
      background-color: #f1f2f6;
-     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/background-1.jpg);
+     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/bg.jpg);
      background-size: cover;
      background-position: center;
      color: #efefef !important;
      background-attachment: fixed;
      padding-top: 148px;
      padding-bottom: 382px;
-     animation: change 50s infinite ease-in-out;
+   
 
 }
 
 
-
-@keyframes change{
-
-  0%
-  {
-      background-image: url("../images/background-1.jpg");
-  }
-
-
-  16%
-  {
-      background-image: url("../images/background-2.jpg");
-  }
-
-
-  32%
-  {
-      background-image: url("../images/background-3.jpg");
-  }
-
-  48%
-  {
-      background-image: url("../images/background-4.jpg");
-  }
-
-  64%
-  {
-      background-image: url("../images/background-5.jpg");
-  }
-
-  80%
-  {
-      background-image: url("../images/background-6.jpg");
-  }
-
-  100%
-  {
-      background-image: url("../images/background-1.jpg");
-  }
-
-  
-}
 
 
 /*------############css for first slide#############---------*/
