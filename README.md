@@ -29,14 +29,12 @@
             <sub><b>Paramee Masakorala</b></sub>
         </a>
     </td>
-                                                                                                                   
-                                                                                                                   <td align="center">
+       <td align="center">
         <a href="https://github.com/dilshan-sudharaka">
             <img src=https://avatars.githubusercontent.com/u/88567859?v=4" width="100(px);" alt="Dilshan Sudharaka"/>
             <br />
             <sub><b>Dilshan Sudharaka</b></sub>
         </a>
-    
     </td>
     <td align="center">
         <a href="https://github.com/AnjaleeWijesinghe">
