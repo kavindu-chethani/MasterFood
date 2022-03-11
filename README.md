@@ -35,6 +35,14 @@
             <sub><b>Dilshan Sudharaka</b></sub>
         </a>
     </td></tr>
+    
+    </td><td align="center">
+        <a href="https://github.com/AnjaleeWijesinghe">
+            <img src=https://avatars.githubusercontent.com/u/96378232?v=4" width="100(px);" alt="AnjaleeWijesinghe"/>
+            <br />
+            <sub><b>Anjalee Wijesinghe</b></sub>
+        </a>
+    </td></tr>
 </table>
 
 
